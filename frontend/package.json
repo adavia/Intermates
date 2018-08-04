@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "next build",
+    "start:development": "node server.js",
+    "start:staging": "NODE_ENV=production ENV=staging node server.js",
+    "start:production": "NODE_ENV=production ENV=production node server.js"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "axios": "^0.18.0",
+    "clean-tag": "^2.0.0",
+    "draft-js": "^0.10.5",
+    "formik": "^1.0.1",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "next": "^6.1.1",
+    "next-routes": "^1.4.2",
+    "nprogress": "^0.2.0",
+    "phoenix-channels": "^1.0.0",
+    "react": "^16.4.1",
+    "react-addons-update": "^15.6.2",
+    "react-datepicker": "^1.5.0",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3",
+    "styled-system": "^3.0.2",
+    "unstated": "^2.1.1",
+    "yup": "^0.26.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.5.1"
+  }
+}
